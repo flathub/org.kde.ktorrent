@@ -1,7 +1,7 @@
 {
     "id": "org.kde.ktorrent",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "ktorrent",
     "rename-icon": "ktorrent",
@@ -131,8 +131,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/ktorrent-24.08.3.tar.xz",
-                    "sha256": "3705b9bdbd5da51da8a0d006b9a7a6db032e6f7061e22709c1146aa5d17cad40",
+                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/ktorrent-24.12.0.tar.xz",
+                    "sha256": "1f61a7ad19eacb0bc7ddf5d060c1dfde76db65e7bdbc24a7a41a78f901982993",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
