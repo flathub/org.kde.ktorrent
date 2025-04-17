@@ -25,8 +25,8 @@
             "name": "boost",
             "buildsystem": "simple",
             "build-commands": [
-                "mkdir -p ${FLATPAK_DEST}/include/boost",
-                "cp -r boost/* ${FLATPAK_DEST}/include/boost"
+                "./bootstrap.sh --prefix=/app --with-libraries=system",
+                "./b2 -j $FLATPAK_BUILDER_N_JOBS install"
             ],
             "sources": [
                 {
@@ -81,27 +81,6 @@
             ]
         },
         {
-            "name": "qca",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTS=OFF",
-                "-DBUILD_WITH_QT6=ON"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/qca/2.3.9/qca-2.3.9.tar.xz",
-                    "sha256": "c555d5298cdd7b6bafe2b1f96106f30cfa543a23d459d50c8a91eac33c476e4e",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 13606,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/qca/$version/qca-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "libktorrent",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -110,8 +89,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.3/src/libktorrent-24.12.3.tar.xz",
-                    "sha256": "16cc6949d5b0b4b918f6f353de5c09dd0c4179f4c303fbb07e3f26bc5726ce40",
+                    "url": "https://download.kde.org/stable/release-service/25.04.0/src/libktorrent-25.04.0.tar.xz",
+                    "sha256": "f2f27f57d52a8c87306cd6b831904716340502bfd68f6fa2f5d5ae6250ceb464",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -131,8 +110,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.3/src/ktorrent-24.12.3.tar.xz",
-                    "sha256": "a6eb8be915d48aed5dd745d3bec1a0f4462f078448a13242dc94d0cfb94f8f9c",
+                    "url": "https://download.kde.org/stable/release-service/25.04.0/src/ktorrent-25.04.0.tar.xz",
+                    "sha256": "e02bc677b5d8e7285eecff05e2c511d96f6cbede1a9d06975e1c27633139cb53",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
