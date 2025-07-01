@@ -1,7 +1,7 @@
 {
     "id": "org.kde.ktorrent",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "ktorrent",
     "rename-icon": "ktorrent",
@@ -36,7 +36,6 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
-                        "stable-only": true,
                         "url-template": "https://archives.boost.io/release/$version/source/boost_${major}_${minor}_$patch.tar.bz2"
                     }
                 }
@@ -53,19 +52,18 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://sources.archlinux.org/other/packages/geoip-database/20200929/GeoIP.dat.gz",
-                    "sha256": "129019d68c6a35ccd903986b5195c8e1c4411482f99c0e406ab886f9aa634dc2"
+                    "url": "https://sources.archlinux.org/other/packages/geoip-database/20250129/GeoIP.dat.gz",
+                    "sha256": "3232f341cf55b60c4e377ab7dafd3685e176d016476e3481591022f8682da53d"
                 },
                 {
                     "type": "file",
-                    "url": "https://sources.archlinux.org/other/packages/geoip-database/20200929/GeoIPv6.dat.gz",
-                    "sha256": "bafe84f8ffd3033faae641033fe9309367d32296868c7dd3c69bf4bc95151186"
+                    "url": "https://sources.archlinux.org/other/packages/geoip-database/20250129/GeoIPv6.dat.gz",
+                    "sha256": "b2c07f64789860bc35d167b7b1be6c5ec1ae717d7998d7c4f9baaa2affeec19b"
                 }
             ]
         },
         {
             "name": "geoip",
-            "buildsystem": "autotools",
             "sources": [
                 {
                     "type": "archive",
@@ -74,7 +72,6 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 11781,
-                        "stable-only": true,
                         "url-template": "https://github.com/maxmind/geoip-api-c/archive/v$version.tar.gz"
                     }
                 }
@@ -94,7 +91,6 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
-                        "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libktorrent-$version.tar.xz"
                     }
                 }
