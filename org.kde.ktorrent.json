@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/libktorrent-25.08.2.tar.xz",
-                    "sha256": "45d8088c6cd7537883667e11cbfe937f964cbd8070d7dea5d39bd93a11b55836",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/libktorrent-25.08.3.tar.xz",
+                    "sha256": "cfa4d96f4eb6827a4ad66cc0af724d1773cb516dee298823204cc45e0ad1cd69",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -106,8 +106,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/ktorrent-25.08.2.tar.xz",
-                    "sha256": "9ba2aef766bb12705c1cd1271da2b6359a71b25a37f7a431407b62f8eb15e2bd",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/ktorrent-25.08.3.tar.xz",
+                    "sha256": "62cb253426274f7619602827d1de2469fffeda437ef5d94dcaa4d7ca2dff4d3e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
