@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
-                    "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305",
+                    "url": "https://archives.boost.io/release/1.92.0/source/boost_1_92_0.tar.bz2",
+                    "sha256": "5c1d40cb8e19adbf740a4ec2da35b3e58f3f5804b1dce44deb53df72193cbc6c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -89,8 +89,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/libktorrent-26.04.3.tar.xz",
-                    "sha256": "d059d3f82a4fca9292cd97d1138e30c22b5875d0a9a593a4211d2f02552e8361",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libktorrent-26.08.1.tar.xz",
+                    "sha256": "0a55d129024f39b474ceb108bfa536caca15fea6cb0fb3aa7bb0b87acc476845",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/ktorrent-26.04.3.tar.xz",
-                    "sha256": "5d3c143e2b157a7b11b214fa95d67c4e2d3d366580a62f965c7f10b9f1523fc9",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/ktorrent-26.08.1.tar.xz",
+                    "sha256": "f1bde77b179217013f0baf1020a5202e0d8bedfc332587d9866df699cac7b9eb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
